@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C++",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "${file}",
+        "-Wall",
+        "-Wextra",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.exe"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc",
+      "options": {
+        "cwd": "${fileDirname}"
+      }
+    },
+    {
+      "label": "Build & Run with File I/O",
+      "dependsOn": ["Build C++"],
+      "dependsOrder": "sequence",
+      "type": "shell",
+      "command": "Get-Content input.txt | .\\${fileBasenameNoExtension}.exe | Out-File output.txt -Encoding utf8",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "options": {
+        "cwd": "${fileDirname}"
+      }
+    }
+  ]
+}
