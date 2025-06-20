@@ -32,5 +32,8 @@
 *.app
 
 # Test Files
-* input.txt
-* output.txt
+input.txt
+output.txt
+
+# Ignore VSCode Settings
+settings.json
