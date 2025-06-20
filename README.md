@@ -1,28 +1,16 @@
 # DSA_CPP
 
-This repository contains my personal practice and learning journey in Data Structures and Algorithms (DSA) using C++. It is structured into topic-based folders as I progress through various DSA concepts.
+A personal repository to practice Data Structures and Algorithms (DSA) using C++. Starts with C++ fundamentals and will expand into core DSA topics.
 
-## 📁 Folder Structure
+## Structure
 
-- `basics_of_cpp/` – Foundational C++ programs including:
-  - Data types
-  - Input/output
-  - Control structures (`if`, `else`, `switch`, loops)
-  - Arrays and functions
+- `basics_of_cpp/`: Data types, input/output, loops, arrays, functions  
+- Future: Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Sorting, DP, and more
 
-More folders and topics will be added as I cover key DSA concepts such as:
-- Arrays and Strings
-- Linked Lists
-- Stacks and Queues
-- Trees and Graphs
-- Recursion and Backtracking
-- Sorting and Searching Algorithms
-- Dynamic Programming
-- Greedy Algorithms
+## Usage
 
-## 🚀 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/DSA_CPP.git
-   cd DSA_CPP
+```bash
+git clone https://github.com/your-username/DSA_CPP.git
+cd DSA_CPP
+g++ basics_of_cpp/example.cpp -o example
+./example
