@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
-
+// Code showing return 0 is same as void fn
 int sum(int num1,int num2){ // This is pass by value
     cout << num1+num2 << endl;
-    return 0;
+    return 0; // Same thing as void fn
 }
 
 int main(){
