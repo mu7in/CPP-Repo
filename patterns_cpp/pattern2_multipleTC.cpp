@@ -24,10 +24,10 @@ void pattern3(int n) {
 }
 
 int main() {
-    int i,t,input;
-    cin >> t;
-    for(i=0;i<t;i++) {
-        cin >> input;
-        pattern3(input);
+    int i,testcases,size;
+    cin >> testcases;
+    for(i=0;i<testcases;i++) {
+        cin >> size;
+        pattern2(size);
     }
 }

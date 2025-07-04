@@ -85,10 +85,10 @@ void pattern8(int n) { //IMP
 }
 
 int main() {
-    int i,t,input;
-    cin >> t;
-    for(i=0;i<t;i++) {
-        cin >> input;
-        pattern8(input);
+    int i,testcases,size;
+    cin >> testcases;
+    for(i=0;i<testcases;i++) {
+        cin >> size;
+        pattern8(size);
     }
 }
