@@ -1,11 +1,6 @@
-# DSA_CPP
+# CPP-Repo
 
-A personal repository to practice Data Structures and Algorithms (DSA) using C++. Starts with C++ fundamentals and will expand into core DSA topics.
-
-## Structure
-
-- `basics_of_cpp/`: Data types, input/output, loops, arrays, functions  
-- Future: Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Sorting, DP, and more
+A personal repository to learn and practice C++ programs. Starts from C++ fundamentals.
 
 ## Usage
 
