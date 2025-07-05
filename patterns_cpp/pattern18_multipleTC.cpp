@@ -57,17 +57,17 @@ void pattern22(int n) {
             int bottom=2*n-2-i; // Intense logic, remember this
             int right=2*n-2-j;
 
-            cout << n-(min(min(top,left),min(bottom,right))); // min syntax remember
+            cout << n-(min(min(top,left),min(bottom,right))); // min syntax
         }
         cout << endl;
     }
 }
 
 int main() {
-    int i,t,input;
-    cin >> t;
-    for(i=0;i<t;i++) {
-        cin >> input;
-        pattern22(input);
+    int i,testcases,size;
+    cin >> testcases;
+    for(i=0;i<testcases;i++) {
+        cin >> size;
+        pattern22(size);
     }
 }
